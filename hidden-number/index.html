@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hidden Numbers Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hidden Numbers Game</h1>
+
+  <div class="game_container">
+    <p class="intro">Welcome to our humble game.<br>The task is simple; we will generate a random number and you have to guess it in a certain number of tries.<br>Good luck!</p>
+
+    <p id="selecter">Pick the difficulty first: </p>
+    <select name="difficulty" id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+    <button id="start">Start the game</button>
+    <p id="diff_decription"></p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
