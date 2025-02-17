@@ -1,7 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #12a0c4;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+.game_container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
 li {
   font-size:larger ;
   font-weight: bold;
-  width : 200px;
   padding: 10px;
   margin: 10px;
   border: 1px solid black; 
